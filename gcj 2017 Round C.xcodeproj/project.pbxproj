@@ -7,7 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		DEC2CB721D8E4C520072B229 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DEC2CB711D8E4C520072B229 /* main.cpp */; };
+		DEC2CB721D8E4C520072B229 /* A.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DEC2CB711D8E4C520072B229 /* A.cpp */; };
+		DEC2CB791D8E4C7B0072B229 /* B.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DEC2CB781D8E4C7B0072B229 /* B.cpp */; };
+		DEC2CB7B1D8E4C8E0072B229 /* C.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DEC2CB7A1D8E4C8E0072B229 /* C.cpp */; };
+		DEC2CB7D1D8E4C9E0072B229 /* D.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DEC2CB7C1D8E4C9E0072B229 /* D.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,7 +27,12 @@
 
 /* Begin PBXFileReference section */
 		DEC2CB6E1D8E4C520072B229 /* gcj 2017 Round C */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "gcj 2017 Round C"; sourceTree = BUILT_PRODUCTS_DIR; };
-		DEC2CB711D8E4C520072B229 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		DEC2CB711D8E4C520072B229 /* A.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = A.cpp; sourceTree = "<group>"; };
+		DEC2CB781D8E4C7B0072B229 /* B.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = B.cpp; sourceTree = "<group>"; };
+		DEC2CB7A1D8E4C8E0072B229 /* C.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = C.cpp; sourceTree = "<group>"; };
+		DEC2CB7C1D8E4C9E0072B229 /* D.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = D.cpp; sourceTree = "<group>"; };
+		DEC2CB7E1D8E4CBB0072B229 /* in */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = in; sourceTree = "<group>"; };
+		DEC2CB7F1D8E4CC30072B229 /* out */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = out; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +65,12 @@
 		DEC2CB701D8E4C520072B229 /* gcj 2017 Round C */ = {
 			isa = PBXGroup;
 			children = (
-				DEC2CB711D8E4C520072B229 /* main.cpp */,
+				DEC2CB711D8E4C520072B229 /* A.cpp */,
+				DEC2CB781D8E4C7B0072B229 /* B.cpp */,
+				DEC2CB7A1D8E4C8E0072B229 /* C.cpp */,
+				DEC2CB7C1D8E4C9E0072B229 /* D.cpp */,
+				DEC2CB7E1D8E4CBB0072B229 /* in */,
+				DEC2CB7F1D8E4CC30072B229 /* out */,
 			);
 			path = "gcj 2017 Round C";
 			sourceTree = "<group>";
@@ -118,7 +131,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DEC2CB721D8E4C520072B229 /* main.cpp in Sources */,
+				DEC2CB7B1D8E4C8E0072B229 /* C.cpp in Sources */,
+				DEC2CB791D8E4C7B0072B229 /* B.cpp in Sources */,
+				DEC2CB7D1D8E4C9E0072B229 /* D.cpp in Sources */,
+				DEC2CB721D8E4C520072B229 /* A.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
